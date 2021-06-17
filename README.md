@@ -63,6 +63,7 @@ If you haven't already, you need to install APOC First
 
 ## Step 3: Export your database
 
+0. Make sure you have installed APOC (Step 1) and enabled import/export operations (Step 2).
 1. Locate the database you want to export in your project section.
 2. Start your database
 
