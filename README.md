@@ -1,7 +1,19 @@
-# How to export your Neo4j Database to JSON/Cypher from Neo4j Desktop using APOC
+# How to export your Neo4j Database to JSON/Cypher file from Neo4j Desktop using APOC
 
 *Made on Windows 10 64-bit, Neo4jDesktop 1.4.5 and APOC 4.2.0.0*
- 
+
+[Step 1: Installing APOC](#step-1-installing-apoc)
+
+[Step 2: Adding permission to importexport files](#step-2-adding-permission-to-importexport-files)
+
+[Step 3: Export your database](#step-3-export-your-database)
+
+[Can't find .Neo4jDesktop directory?](#cant-find-neo4jdesktop-directory)
+
+[Can't find your [project-dir-hash] ?](#cant-find-your-project-dir-hash)
+
+***
+
 ## Step 1: Installing APOC
 
 If you haven't already, you need to install APOC First
@@ -107,3 +119,6 @@ dbms.windows_service_name=neo4j-relate-dbms-[YOUR HASH WILL BE HERE]
 ```
 
 With that information you can find your directory name.
+
+
+[Got to the top of the page](#how-to-export-your-neo4j-database-to-jsoncypher-file-from-neo4j-desktop-using-apoc)
